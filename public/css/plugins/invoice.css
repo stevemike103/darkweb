@@ -1,0 +1,139 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 100s linear infinite
+}
+@keyframes animatedBackground{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:100% 0
+    }
+}
+.therow{
+    margin-top: 55px;
+}
+@media screen and (max-width: 1026px) {
+    .therow{
+        margin-top: 78px;
+    }
+}
+#predat {
+    display: none;
+    padding: 3px;
+    height: 100vh;
+    margin: 0 -7px !important;
+}
+#predat div {
+    overflow-y: hidden !important;
+}
+#predat .section-heading h4 {
+    color: #121d33;
+}
+.butn.home-btn{
+    margin-top: 7vh;
+    color: #121d33 !important;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 10px;
+}
+.butn.modal-btn {
+    margin-top: 7vh;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 10px;
+}
+.butn.modal-btn img,
+.butn.home-btn img {
+    margin-left: 3px !important;
+}
+.butn.modal-btn img,
+.butn.home-btn img {
+    width: 27px;
+    border-radius: 0;
+}
+
+
+#style-switcher{
+    top: 24%;
+}
+@media (max-width:592px){
+    #style-switcher{
+        top: 19%;
+    }
+}
+
+#exampleModal .modal-dialog {
+    top: 11vh !important;
+}
+#anon-check {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+}
+@media screen and (max-width: 500px) {
+    #exampleModal .modal-dialog {
+        top: 21vh !important;
+    }
+}
+
+#down-file {
+    text-transform: uppercase !important;
+}
+#settings img {
+    width: 25px !important;
+	height: 25px !important;
+	margin: -3px auto -1px auto !important;
+}
+.pricing-list ul li:nth-child(8) {
+    font-size: 15px !important;
+}
+@media screen and (max-width: 769px) {
+    .pricing-list ul li:nth-child(8) {
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 380px) {
+    .pricing-list ul li:nth-child(8) {
+        font-size: 13px !important;
+    }
+}
+@media (max-width: 370px) {
+    .pricing-list ul li:nth-child(8) {
+        font-size: 12px !important;
+    }
+}
+
+#the-flag {
+    width: 20% !important;
+    border: none !important;
+    height: 57px !important;
+    margin: auto 7px !important;
+}
+#the-flag2 {
+    width: 27px !important;
+    border: none !important;
+    height: 27px !important;
+    margin: auto 7px !important;
+}
+.invoice {
+    display: flex;
+    margin-left: -14px !important;
+}
+#vpn {
+	padding: 7.5px 13px !important;
+}
+#vpn2,
+#vpn {
+	margin: 60px;
+}
+@media (max-width: 767px) {
+    #vpn {
+        margin: 50px;
+    }
+    #vpn2 {
+	    margin-top: 5px;
+        margin-bottom: 30px;
+    }
+}

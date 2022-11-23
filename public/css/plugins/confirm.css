@@ -1,0 +1,346 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 70s linear infinite 
+}
+#confirm, #logs-invoice {
+    padding: 0 10px;
+    height: 100vh !important;
+}
+#confirm div, #logs-invoice div {
+    overflow: hidden !important;
+}
+#confirm .section-heading h4, #logs-invoice .section-heading h4 {
+    color: #121d33;
+}
+.butn.ver-btn,
+.butn.home-btn, 
+.butn.phone-btn {
+    margin: 3vh 0 1vh;
+    color: #121d33 !important;
+    font-size: 22px;
+    cursor: pointer !important;
+    line-height: 35px;
+    white-space: nowrap !important;
+    padding: 7.5px 14px;
+    box-shadow: 1px 1px 3px 1px rgba(18, 29, 51, 0.5) !important;
+}
+.butn.home-btn {
+    padding: 7.5px 16px;
+}
+.butn.modal-btn {
+    margin: 3vh 0 2vh;
+    font-size: 22px;
+    cursor: pointer !important;
+    line-height: 35px;
+    white-space: nowrap !important;
+    padding: 7.5px 12px;
+}
+.invoice img {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 21px 14px 0 !important;
+}
+@media screen and (max-width: 470px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 22px;
+        padding: 8px 12px;
+   }
+   .butn.home-btn {
+        padding: 8px 14px;
+    }
+   .invoice img {
+        width: 52px !important;
+        height: 52px !important;
+        margin: 29px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 22px;
+        padding: 8px 12px;
+   }
+   .butn.home-btn {
+        padding: 8px 14px;
+    }
+   .invoice img {
+        width: 51px !important;
+        height: 51px !important;
+        margin: 28px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 397px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 21px;
+        padding: 8px 13px;
+   }
+   .butn.home-btn {
+        padding: 8px 15px;
+    }
+   .invoice img {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 27px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 384px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 20.5px;
+        padding: 7.5px 12px;
+   }
+   .butn.home-btn {
+        padding: 7.5px 14px;
+    }
+   .invoice img {
+        width: 49px !important;
+        height: 49px !important;
+        margin: 27px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 374px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 20px;
+        padding: 7px 11px;
+   }
+   .butn.home-btn {
+        padding: 7.5px 13px;
+    }
+   .invoice img {
+        width: 48px !important;
+        height: 48px !important;
+        margin: 25px 14px 0 !important;
+    }
+}
+.butn.modal-btn img,
+.butn.ver-btn img,
+.butn.home-btn img, .butn.phone-btn img {
+    width: 27px;
+    border-radius: 4px;
+}
+#email-invoice, #phone-invoice, #anon-invoice {
+    margin: 0.7px !important;
+    padding: 0px !important;
+}
+#anon-div2,
+#anon-div, #phone-div, #email-div {
+    display: none;
+}
+#anon-div {
+    margin-top: 11vh !important;
+}
+#phone-div {
+    margin-top: 17vh !important;
+}
+#email-div {
+    margin-top: 15vh !important;
+}
+@media screen and (max-width: 821px) {
+    #anon-div {
+        margin-top: 23vh !important;
+    }
+    #phone-div {
+        margin-top: 23vh !important;
+    }
+    #email-div {
+        margin-top: 23vh !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    #anon-div {
+        margin-top: 17vh !important;
+    }
+    #phone-div {
+        margin-top: 18vh !important;
+    }
+    #email-div {
+        margin-top: 21vh !important;
+    }
+}
+@media screen and (max-width: 381px) {
+    #anon-div {
+        margin-top: 16vh !important;
+    }
+    #phone-div {
+        margin-top: 17vh !important;
+    }
+    #email-div {
+        margin-top: 20vh !important;
+    }
+}
+@media screen and (max-width: 374px) {
+    #anon-div {
+        margin-top: 14vh !important;
+    }
+    #phone-div {
+        margin-top: 15vh !important;
+    }
+    #email-div {
+        margin-top: 16vh !important;
+    }
+}
+#email-invoice p, #phone-invoice p, #anon-invoice p {
+    margin: 3px auto 7px !important;
+    font-size: 20.5px !important;
+    line-height: 41px !important;
+}
+#email-invoice p span, 
+#phone-invoice p span, 
+#anon-invoice p span { 
+    font-weight: 600 !important;
+}
+@media screen and (max-width: 574px) {
+    #email-invoice p, #phone-invoice p, #anon-invoice p {
+        margin: 7px auto 7px !important;
+        font-size: 19.7px !important;
+    }
+}
+@media screen and (max-width: 404px) {
+    #email-invoice p, #phone-invoice p, #anon-invoice p {
+        font-size: 19.3px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    #email-invoice p, #phone-invoice p, #anon-invoice p {
+        font-size: 19px !important;
+    }
+}
+#yourEmail, #yourPhone, #anon-invoice span {
+    font-weight: 600;
+    color: #121d33 !important;
+}
+#the-flag {
+    width: 20% !important;
+    border: none !important;
+    height: 57px !important;
+    margin: auto 7px !important;
+}
+.invoice {
+    display: flex;
+    margin-left: -14px !important;
+}
+
+blink {
+    position: relative !important;
+    top: -75px !important;
+    left: 100px !important;
+    z-index: 999 !important;
+}
+@media screen and (max-width: 500px) {
+    blink {
+        left: 95px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    blink {
+        left: 90px !important;
+    }
+}
+#invoice-body-div {
+    margin: 0 !important;
+    background: #fff !important;
+}
+#invoice-body-div p {
+    font-weight: 500 !important;
+}
+@media (min-width: 1092px) {
+	.col-lg-5 {
+		-ms-flex: 0 0 39.7%;
+		flex: 0 0 39.7%;
+		max-width: 39.7%;
+   }
+}
+.link-email-div {
+    margin-bottom: -20px !important;
+}
+.link-phone-div {
+    margin-top: 10px !important;
+    margin-bottom: 7px !important;
+}
+blink {
+    animation: blinkez 4.9s linear infinite;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px;
+    margin: 3px;
+    font-size: 16px;
+    position: absolute;
+    right: 3px;
+    top: 30px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 1.4px solid #fff;
+}
+@keyframes blinkez {
+  0% {
+    color: rgba(18, 29, 51, 0.5);
+    border: 1.4px solid rgba(18, 29, 51, 0.5);
+  }
+  10% {
+    color: rgba(18, 29, 51, 0.75);
+    border: 1.4px solid rgba(18, 29, 51, 0.75);
+  }
+  20% {
+    color: rgba(18, 29, 51, 1);
+    border: 1.4px solid rgba(18, 29, 51, 1);
+  }
+  30% {
+    color: rgba(18, 29, 51, 0.75);
+    border: 1.4px solid rgba(18, 29, 51, 0.75);
+  }
+  40% {
+    color: rgba(18, 29, 51, 0.5);
+    border: 1.4px solid rgba(18, 29, 51, 0.5);
+  }
+  50% {
+    color: rgba(18, 29, 51, 0.25);
+    border: 1.4px solid rgba(18, 29, 51, 0.25);
+  }
+  60% {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1.4px solid rgba(255, 255, 255, 0.5);
+  }
+  70% {
+    color: rgba(255, 255, 255, 0.75);
+    border: 1.4px solid rgba(255, 255, 255, 0.75);
+  }
+  80% {
+    color: rgba(255, 255, 255, 1);
+    border: 1.4px solid rgba(255, 255, 255, 1);
+  }
+    90% {
+      color: rgba(255, 255, 255, 0.75);
+      border: 1.4px solid rgba(255, 255, 255, 0.75);
+   }
+   100% {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1.4px solid rgba(255, 255, 255, 0.5);
+  }
+}
+#exampleModal .modal-dialog {
+    top: 11vh !important;
+}
+#anon-check {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+}
+@media screen and (max-width: 500px) {
+    #exampleModal .modal-dialog {
+        top: 21vh !important;
+    }
+}
